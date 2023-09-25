@@ -19,12 +19,12 @@ class GuessingGame {
     }
 
     lower() {
-        this.minRange = guess();
+        this.maxRange = this.res;
 
     }
 
     greater() {
-    this.maxRange = guess();
+    this.minRange = this.res;
     }
 }
 
